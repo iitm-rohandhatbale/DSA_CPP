@@ -110,23 +110,19 @@ int main()
             break;
 
         case 3:
-            if (q.isEmpty())
-            {
+            if (q.isEmpty()){
                 cout << "Queue is Empty !!" << endl;
             }
-            else
-            {
+            else{
                 cout << "Queue is not Empty !" << endl;
             }
             break;
 
         case 4:
-            if (q.isFull())
-            {
+            if (q.isFull()){
                 cout << "Queue is full !" << endl;
             }
-            else
-            {
+            else{
                 cout << "Queue is not full !" << endl;
             }
             break;

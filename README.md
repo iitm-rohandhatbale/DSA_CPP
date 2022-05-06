@@ -233,11 +233,11 @@ int main()
 
 # Queue Data Structure
 
-- Queue is a linear data structure which operats in **FIFO(First In First Out)** or **LILO (Last In Last Out) pattern**.
+- Queue is a linear data structure which operates in **FIFO(First In First Out)** or **LILO (Last In Last Out) pattern**.
 - It exactly behaves as the real world queue in which whoever enters first will be out first. 
 - Similar to **Stack**, **Queue** is also a very simple abstract data type with a bounded capacity.
 - Queues can be used in CPU Scheduling, Disk Scheduling, handling of errors in real time.
-- Inn real life call center phone systems will use queues to hold call in order. 
+- In real life, call center phone systems will use queues to hold call in order. 
 
 #### Working of a Queue
 - Elements are always added at _rear end_, which is called **Enqueue**.
