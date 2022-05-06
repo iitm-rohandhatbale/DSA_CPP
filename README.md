@@ -57,3 +57,22 @@
 #### Example Code
 
 [Queue Code](DSAbySimpleSnippets/DSA_queue.cpp)
+
+## Circular Queue Data Structure
+- This is very similar to Que data structure with minor changes to address the major disadvantage of Queue data structure. 
+- So, in Queue DS, when dequeue operation is performed, the element that is dequeued is replaced by 0 in the queue. In that case even after removing the element, that vacant memory block of array (occupied by 0) becomes useless untill all the elements of the queue is dequeued.
+- To overcome this disadvantage, **Circular Queue Data Structure** is used. Once the element is dequeued from the head and queue is full otherwise, then the next enqueued number is stored in place of dequeued numeber but at the same time head _rear/back_ is shifted one place forward so that the enqued element becomes last. 
+
+![Circular Queue snippet](snippets/circular_queue_snippet.png)
+
+#### Standard Queue Operations
+
+1. ```enqueue()```: Element is added from the _rear/back end_. 
+2. ```dequeue()```: Element is removed from _fron/head end_.
+3. ```isEmpty()```: Check is queue is empty.
+4. ```isFull()```: Check if queue is full.
+5. ```count()```: count of total items on the queue. 
+
+#### Example Code
+
+[Circular Queue Code](DSAbySimpleSnippets/DSA_circular_queue.cpp)
